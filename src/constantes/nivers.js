@@ -5,8 +5,10 @@ export default function useNiver () {
       mes: '01',
       descricao: 'Janeiro',
       pessoas: [
+        { dia: '02', nome: 'Phillip' },
         { dia: '12', nome: 'Emanoel' },
         { dia: '15', nome: 'Patrick' },
+        { dia: '16', nome: 'Adriana' },
         { dia: '20', nome: 'Beth' },
         { dia: '29', nome: 'Gustavo' },
         { dia: '29', nome: 'Matheus' }
@@ -16,6 +18,7 @@ export default function useNiver () {
       mes: '02',
       descricao: 'Fevereiro',
       pessoas: [
+        { dia: '01', nome: 'Ivan' },
         { dia: '03', nome: 'Rogério' },
         { dia: '08', nome: 'Denise' },
         { dia: '23', nome: 'Neyla' }
@@ -63,6 +66,7 @@ export default function useNiver () {
       descricao: 'Julho',
       pessoas: [
         { dia: '03', nome: 'Letícia' },
+        { dia: '11', nome: 'Geovanni' },
         { dia: '31', nome: 'Geraldo' }
       ]
     },
@@ -80,6 +84,7 @@ export default function useNiver () {
       pessoas: [
         { dia: '07', nome: 'M.Jeeep' },
         { dia: '18', nome: 'Julia' },
+        { dia: '18', nome: 'Zeca' },
         { dia: '23', nome: 'Thiaguinho' }
       ]
     },
@@ -98,7 +103,8 @@ export default function useNiver () {
       pessoas: [
         { dia: '01', nome: 'Ricardo' },
         { dia: '09', nome: 'Samuel' },
-        { dia: '19', nome: 'Luis' }
+        { dia: '19', nome: 'Luis' },
+        { dia: '29', nome: 'Adilson Marcelino' }
       ]
     },
     {
