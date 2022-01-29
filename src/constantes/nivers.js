@@ -8,7 +8,8 @@ export default function useNiver () {
         { dia: '12', nome: 'Emanoel' },
         { dia: '15', nome: 'Patrick' },
         { dia: '20', nome: 'Beth' },
-        { dia: '29', nome: 'Gustavo' }
+        { dia: '29', nome: 'Gustavo' },
+        { dia: '29', nome: 'Matheus' }
       ]
     },
     {
@@ -78,6 +79,7 @@ export default function useNiver () {
       descricao: 'Setembro',
       pessoas: [
         { dia: '07', nome: 'M.Jeeep' },
+        { dia: '18', nome: 'Julia' },
         { dia: '23', nome: 'Thiaguinho' }
       ]
     },
@@ -94,6 +96,7 @@ export default function useNiver () {
       mes: '11',
       descricao: 'Novembro',
       pessoas: [
+        { dia: '01', nome: 'Ricardo' },
         { dia: '09', nome: 'Samuel' },
         { dia: '19', nome: 'Luis' }
       ]
