@@ -94,7 +94,8 @@ export default function useNiver () {
       mes: '11',
       descricao: 'Novembro',
       pessoas: [
-        { dia: '09', nome: 'Samuel' }
+        { dia: '09', nome: 'Samuel' },
+        { dia: '19', nome: 'Luis' }
       ]
     },
     {
