@@ -7,7 +7,7 @@ export default function useNiver () {
       pessoas: [
         { dia: '02', nome: 'Phillip' },
         { dia: '12', nome: 'Emanoel' },
-        { dia: '16', nome: 'Patrick' },
+        { dia: '15', nome: 'Patrick' },
         { dia: '16', nome: 'Adriana' },
         { dia: '20', nome: 'Beth' },
         { dia: '29', nome: 'Gustavo' },
