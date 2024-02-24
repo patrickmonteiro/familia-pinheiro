@@ -49,6 +49,7 @@ export default function useNiver () {
       descricao: 'Maio',
       pessoas: [
         { dia: '07', nome: 'Dorotí' },
+        { dia: '18', nome: 'Andrey Miranda' },
         { dia: '20', nome: 'Laura' }
       ]
     },

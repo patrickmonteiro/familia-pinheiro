@@ -89,9 +89,9 @@ module.exports = configure(function (ctx) {
           primary: '#a30000',
           secondary: '#26A69A',
           accent: '#9C27B0',
-  
+
           dark: '#1d1d1d',
-  
+
           positive: '#21BA45',
           negative: '#C10015',
           info: '#31CCEC',
@@ -100,7 +100,7 @@ module.exports = configure(function (ctx) {
       },
 
       // iconSet: 'material-icons', // Quasar icon set
-      // lang: 'en-US', // Quasar language pack
+      lang: 'pt-BR', // Quasar language pack
 
       // For special cases outside of where the auto-import strategy can have an impact
       // (like functional components as one of the examples),
@@ -110,7 +110,7 @@ module.exports = configure(function (ctx) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: ['Dialog']
     },
 
     // animations: 'all', // --- includes all animations
@@ -148,10 +148,10 @@ module.exports = configure(function (ctx) {
 
       // for the custom service worker ONLY (/src-pwa/custom-service-worker.[js|ts])
       // if using workbox in InjectManifest mode
-      chainWebpackCustomSW (chain) {
-        chain.plugin('eslint-webpack-plugin')
-          .use(ESLintPlugin, [{ extensions: ['js'] }])
-      },
+      // chainWebpackCustomSW (chain) {
+      //   chain.plugin('eslint-webpack-plugin')
+      //     .use(ESLintPlugin, [{ extensions: ['js'] }])
+      // },
 
       manifest: {
         name: 'Família Pinheiro',
@@ -159,8 +159,8 @@ module.exports = configure(function (ctx) {
         description: 'App da Família Pinheiro',
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#ffffff',
-        theme_color: '#027be3',
+        background_color: '#EDEFEB',
+        theme_color: '#EDEFEB',
         icons: [
           {
             src: 'icons/icon-128x128.png',

@@ -6,7 +6,6 @@
           Família Pinheiro
         </q-toolbar-title>
 
-        <div>S2</div>
       </q-toolbar>
     </q-header>
 
@@ -42,7 +41,7 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref, onMounted } from 'vue'
 
 export default defineComponent({
   name: 'MainLayout',
@@ -53,6 +52,15 @@ export default defineComponent({
   setup () {
     const tab = ref('')
 
+    onMounted(() => {
+      // Solução para recarregar Safari quando não encontrar arquivos JS
+      window.addEventListener('error', (e) => {
+        const srcError = e.target.src
+        if (srcError.includes('/js/')) {
+          window.location.reload()
+        }
+      }, true)
+    })
     return {
       tab
     }
